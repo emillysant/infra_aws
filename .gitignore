@@ -1,0 +1,26 @@
+# Arquivos temporários
+*.tfstate
+*.tfstate.backup
+*.tfplan
+
+# Diretório .terraform gerado pelo Terraform
+.terraform/
+
+# Arquivos de log e diagnóstico
+*.log
+*.out
+
+# Chaves privadas
+*.pem
+*.key
+
+# Arquivos de ambiente
+*.env
+
+# Arquivos de IDE
+.vscode/
+.idea/
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
